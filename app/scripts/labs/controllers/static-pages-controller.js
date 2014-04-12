@@ -1,9 +1,8 @@
 /*global define*/
-define(function (require) {
+define(function () {
     'use strict';
 
     var StaticPagesController,
-        Backbone = require('backbone'),
         HomeView = function () {},
         HelpView = function () {};
 
@@ -19,7 +18,7 @@ define(function (require) {
             this.view = new HelpView();
         }
 
-    }
+    };
 
     return StaticPagesController;
 

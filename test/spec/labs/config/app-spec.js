@@ -1,4 +1,4 @@
-/* global define, describe, it, should */
+/* global define, describe, it, expect */
 define(['labs/config/app'], function (appConfig) {
     'use strict';
 

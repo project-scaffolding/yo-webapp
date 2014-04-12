@@ -1,5 +1,5 @@
-/* global define, describe, it, should */
-define(['labs/controllers/static-pages-controller'], function (StaticPagesController) {
+/* global define, describe, it */
+define(['labs/controllers/static-pages-controller'], function () {
     'use strict';
 
     describe('Static pages', function () {
